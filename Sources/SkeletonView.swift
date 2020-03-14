@@ -168,7 +168,7 @@ extension UIView {
             guard isSkeletonable, isSkeletonActive else { return }
             layoutSkeletonLayerIfNeeded()
             if let config = currentSkeletonConfig, config.animated, !isSkeletonAnimated {
-                startSkeletonAnimation(config.animation)
+//                startSkeletonAnimation(config.animation)
             }
         }) { subview in
             subview.recursiveLayoutSkeletonIfNeeded()
