@@ -12,7 +12,9 @@ enum ViewAssociatedKeys {
     static var viewState = "viewState"
     static var labelViewState = "labelViewState"
     static var imageViewState = "imageViewState"
+    static var buttonViewState = "buttonViewState"
     static var currentSkeletonConfig = "currentSkeletonConfig"
+    static var skeletonCornerRadius = "skeletonCornerRadius"
 }
 // codebeat:enable[TOO_MANY_IVARS]
 

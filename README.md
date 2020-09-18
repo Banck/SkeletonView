@@ -5,64 +5,58 @@
       <img src="https://github.com/Juanpe/SkeletonView/workflows/build/badge.svg">
     </a>
     <a href="https://codebeat.co/projects/github-com-juanpe-skeletonview-master"><img alt="codebeat badge" src="https://codebeat.co/badges/f854fdfd-31e5-4689-ba04-075d83653e60" /></a>
-    <a href="https://github.com/Juanpe/SkeletonView">
-        <img src="https://img.shields.io/cocoapods/p/SkeletonView.svg" alt="Platforms">
-    </a>
-    <img src="https://img.shields.io/badge/Swift-5-orange.svg" />
-    <a href="https://cocoapods.org/pods/SkeletonView">
-        <img src="https://img.shields.io/cocoapods/v/SkeletonView.svg" alt="CocoaPods" />
-    </a>
-    <a href="https://github.com/Carthage/Carthage">
-        <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage" />
-    </a>
-    <a href="https://github.com/apple/swift-package-manager">
-        <img src="https://img.shields.io/badge/SPM-compatible-brightgreen.svg" alt="SPM" />
-    </a>
+    <img src="http://img.shields.io/badge/dependency%20manager-swiftpm%2Bcocoapods%2Bcarthage-green" />
+    <img src="https://img.shields.io/badge/platforms-ios%2Btvos-green" />
+    <a href="https://badge.bow-swift.io/recipe?name=SkeletonView&description=An%20elegant%20way%20to%20show%20users%20that%20something%20is%20happening%20and%20also%20prepare%20them%20to%20which%20contents%20he%20is%20waiting&url=https://github.com/juanpe/skeletonview&owner=Juanpe&avatar=https://avatars0.githubusercontent.com/u/1409041?v=4&tag=1.8.7"><img src="https://raw.githubusercontent.com/bow-swift/bow-art/master/badges/nef-playgrounds-badge.svg" alt="SkeletonView Playground" style="height:20px"></a>   
+    <br/>
     <a href="https://twitter.com/JuanpeCatalan">
         <img src="https://img.shields.io/badge/contact-@JuanpeCatalan-blue.svg?style=flat" alt="Twitter: @JuanpeCatalan" />
-    </a>
-    <br/>
-    <a href="https://gitter.im/SkeletonView/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge">
-        <img src="https://badges.gitter.im/SkeletonView/community.svg?style=flat" />
     </a>
     <a href="https://twitter.com/intent/tweet?text=Wow%20This%20library%20is%20awesome:&url=https%3A%2F%2Fgithub.com%2FJuanpe%2FSkeletonView">
       <img src="https://img.shields.io/twitter/url/https/github.com/Juanpe/SkeletonView.svg?style=social" alt="License" />
     </a>
 </p>
 
-🌎  Translations: </br>
-[🇨🇳](https://github.com/Juanpe/SkeletonView/blob/master/README_zh.md) by [@WhatsXie](https://twitter.com/WhatsXie) </br>
-[🇧🇷](https://github.com/Juanpe/SkeletonView/blob/master/README_pt-br.md) by [@brunomunizaf](https://twitter.com/brunomuniz_af) </br>
-[🇰🇷](https://github.com/Juanpe/SkeletonView/blob/master/README_ko.md) by [@techinpark](https://twitter.com/techinpark)
+<br/>
+<br/>
 
-Today almost all apps have async processes, such as Api requests, long running processes, etc. And while the processes are working, usually developers place a loading view to show users that something is going on.
+**🌎 README is available in other languages: [🇨🇳](https://github.com/Juanpe/SkeletonView/blob/master/README_zh.md) [🇧🇷](https://github.com/Juanpe/SkeletonView/blob/master/README_pt-br.md) [🇰🇷](https://github.com/Juanpe/SkeletonView/blob/master/README_ko.md) [🇫🇷](https://github.com/Juanpe/SkeletonView/blob/master/README_fr.md)**
 
-```SkeletonView``` has been conceived to address this need, an elegant way to show users that something is happening and also prepare them to which contents he is waiting.
+Today almost all apps have async processes, such as API requests, long running processes, etc. While the processes are working, usually developers place a loading view to show users that something is going on.
+
+```SkeletonView``` has been conceived to address this need, an elegant way to show users that something is happening and also prepare them for which contents are waiting.
 
 Enjoy it! 🙂
 
-* [Features](#-features)
-* [Guides](#-guides)
-* [Installation](#-installation)
-  * [Cocoapods](#using-cocoapods)
-  * [Carthage](#using-carthage)
-  * [SPM](#using-swift-package-manager)
-* [How to use](#-how-to-use)
-  * [Collections](#-collections)
-  * [Multiline text](#-multiline-text)
-  * [Custom colors](#-custom-colors)
-  * [Appearance](#-appearance)
-  * [Custom animations](#-custom-animations)
-  * [Transitions](#-transitions)
-  * [Hierarchy](#-hierarchy)
-  * [Debug](#-debug)
-* [Documentation](#-documentation)
-* [Supported OS & SDK Versions](#-supported-os--sdk-versions)
-* [Next steps](#-next-steps)
-* [Contributing](#-contributing)
-* [Mentions](#-mentions)
-* [Author](#-author)
-* [License](#-license)
+- [🌟 Features](#-features)
+- [🎬 Guides](#-guides)
+- [📲 Installation](#-installation)
+    - [Using CocoaPods](#using-cocoapods)
+    - [Using Carthage](#using-carthage)
+    - [Using Swift Package Manager](#using-swift-package-manager)
+- [🐒 How to use](#-how-to-use)
+  - [Extra](#extra)
+    - [Skeleton views layout](#skeleton-views-layout)
+    - [Update skeleton configuration](#update-skeleton-configuration)
+  - [🌿 Collections](#-collections)
+    - [UITableView](#uitableview)
+    - [UICollectionView](#uicollectionview)
+  - [📰 Multiline text](#-multiline-text)
+      - [🎛 Customize](#-customize)
+  - [🎨 Custom colors](#-custom-colors)
+        - [Image captured from website https://flatuicolors.com](#image-captured-from-website-httpsflatuicolorscom)
+  - [🦋 Appearance](#-appearance)
+  - [🤓 Custom animations](#-custom-animations)
+  - [🏄 Transitions](#-transitions)
+  - [👨‍👧‍👦 Hierarchy](#-hierarchy)
+  - [🔬 Debug](#-debug)
+  - [📚 Documentation](#-documentation)
+  - [📋 Supported OS & SDK Versions](#-supported-os--sdk-versions)
+- [📬 Next steps](#-next-steps)
+- [❤️ Contributing](#️-contributing)
+- [📢 Mentions](#-mentions)
+- [👨🏻‍💻 Author](#-author)
+- [👮🏻 License](#-license)
 
 
 ## 🌟 Features
@@ -77,7 +71,9 @@ Enjoy it! 🙂
 
 ## 🎬 Guides
 
- [<img src="Assets/thumb_getting_started.png">](https://youtu.be/75kgOhWsPNA)
+| [![](https://img.youtube.com/vi/75kgOhWsPNA/maxresdefault.jpg)](https://youtu.be/75kgOhWsPNA)|[![](https://img.youtube.com/vi/MVCiM_VdxVA/maxresdefault.jpg)](https://youtu.be/MVCiM_VdxVA)|[![](https://img.youtube.com/vi/Qq3Evspeea8/maxresdefault.jpg)](https://youtu.be/Qq3Evspeea8)|[![](https://img.youtube.com/vi/ZOoPtBwDRT0/maxresdefault.jpg)](https://youtu.be/ZOoPtBwDRT0)
+|:---:  | :---: |:---:  | :---: 
+|[**SkeletonView Guides - Getting started**](https://youtu.be/75kgOhWsPNA)|[**How to Create Loading View with Skeleton View in Swift 5.2**](https://youtu.be/MVCiM_VdxVA) <br/> by iKh4ever Studio|[**Create Skeleton Loading View in App (Swift 5) - Xcode 11, 2020**](https://youtu.be/Qq3Evspeea8) <br/> by iOS Academy| [**Add An Elegant Loading Animation in Swift***](https://youtu.be/ZOoPtBwDRT0) <br/> by Gary Tokman
 
 ## 📲 Installation
 
@@ -202,7 +198,7 @@ You can change the skeleton configuration at any time like its colour, animation
 
 ### 🌿 Collections
 
- Now, ```SkeletonView``` is compatible with ```UITableView``` and ```UICollectionView```.
+```SkeletonView``` is compatible with ```UITableView``` and ```UICollectionView```.
 
 #### UITableView
 
@@ -348,6 +344,8 @@ Default values:
 - **multilineLastLineFillPercent**: Int
   - *default: 70*
 - **multilineCornerRadius**: Int
+  - *default: 0*
+- **skeletonCornerRadius**: CGFloat (IBInspectable)  (Make your skeleton view with corner)
   - *default: 0*
 
 To get these default values you can use `SkeletonAppearance.default`. Using this property you can set the values as well:
@@ -532,7 +530,7 @@ This is an open source project, so feel free to contribute. How?
 
 See [all contributors](https://github.com/Juanpe/SkeletonView/graphs/contributors)
 
-###### Project generated with [SwiftPlate](https://github.com/JohnSundell/SwiftPlate)
+For more information, please read the [contributing guidelines](https://github.com/Juanpe/SkeletonView/blob/develop/CONTRIBUTING.md).
 
 ## 📢 Mentions
 
