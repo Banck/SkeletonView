@@ -3,9 +3,15 @@ All notable changes to this project will be documented in this file
 
 ### Next version
 
+## 📦 [1.10.0](https://github.com/Juanpe/SkeletonView/releases/tag/1.10.0)
+
 #### 🙌 New
 * [**327**](https://github.com/Juanpe/SkeletonView/pull/327): Add SwiftLint - [@Juanpe](https://github.com/Juanpe)
 * [**329**](https://github.com/Juanpe/SkeletonView/pull/329): Spanish README 🇪🇸 - [@Juanpe](https://github.com/Juanpe)
+
+#### 🩹 Bug fixes
+* [**336**](https://github.com/Juanpe/SkeletonView/pull/336): Not replace text when the skeleton disappears. Solved issues: [#296](https://github.com/Juanpe/SkeletonView/issues/296), [#330](https://github.com/Juanpe/SkeletonView/issues/330) - [@Juanpe](https://github.com/Juanpe)
+* [**337**](https://github.com/Juanpe/SkeletonView/pull/337): RTL support. Solved issues: [#143](https://github.com/Juanpe/SkeletonView/issues/143) - [@Juanpe](https://github.com/Juanpe)
 
 ## 📦 [1.9](https://github.com/Juanpe/SkeletonView/releases/tag/1.9)
 
