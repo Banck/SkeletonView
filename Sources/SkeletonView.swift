@@ -96,7 +96,7 @@ extension UIView {
     @objc func skeletonLayoutSubviews() {
         guard Thread.isMainThread else { return }
         skeletonLayoutSubviews()
-        guard isSkeletonActive else { return }
+        guard isSkeletonable, isSkeletonActive else { return }
         layoutSkeletonIfNeeded()
     }
 
